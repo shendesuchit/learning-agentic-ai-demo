@@ -78,33 +78,7 @@ The goal is to:
 
 ## :material-notebook-edit-outline: Recent Learning
 
-<div class="grid cards" markdown>
-
--   :material-tune-vertical:{ .lg .middle } **Middleware**
-
-    ---
-
-    Understanding where middleware sits in an execution pipeline.
-
-    [:octicons-arrow-right-24: Read Middleware](frameworks/langchain/middleware/overview.md)
-
--   :material-code-braces:{ .lg .middle } **Custom Middleware**
-
-    ---
-
-    A small Python example demonstrating the basic idea.
-
-    [:octicons-arrow-right-24: Read Custom Middleware](frameworks/langchain/middleware/custom.md)
-
--   :material-graph-outline:{ .lg .middle } **LangGraph**
-
-    ---
-
-    A first look at graph-based application flows.
-
-    [:octicons-arrow-right-24: Read LangGraph](frameworks/langgraph/introduction.md)
-
-</div>
+<!-- AUTO:RECENT_LEARNING -->
 
 ---
 
@@ -124,7 +98,7 @@ The important part of documenting a concept is capturing **what I understood**, 
 
     My learning repository will eventually contain runnable Python examples alongside the explanations.
 
-```text
+    ```text
     Documentation
          ↓
     Concept
@@ -136,7 +110,7 @@ The important part of documenting a concept is capturing **what I understood**, 
     Result
          ↓
     My Understanding
-```
+    ```
 
     [Explore Examples →](examples/index.md)
 
@@ -165,7 +139,7 @@ The important part of documenting a concept is capturing **what I understood**, 
 
     The website is generated from the repository and automatically deployed through Netlify.
 
-```text
+    ```text
     Learn
       ↓
     Document
@@ -179,7 +153,7 @@ The important part of documenting a concept is capturing **what I understood**, 
     Netlify
       ↓
     🌐 Learning Lab
-```
+    ```
 
 ---
 
