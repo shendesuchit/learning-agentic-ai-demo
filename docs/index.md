@@ -6,7 +6,7 @@ A personal engineering learning laboratory where I document what I learn about *
 
 ---
 
-## 🧭 Currently Learning
+## :material-radar: Currently Learning
 
 ### Agentic AI → Frameworks → LangChain → Middleware
 
@@ -19,29 +19,39 @@ I'm currently exploring how middleware fits into the execution flow of AI applic
 
 ---
 
-## 🗺️ Learning Paths
+## :material-map-marker-path: Learning Paths
 
-### 🤖 Agentic AI
+<div class="grid cards" markdown>
 
-Concepts, architectures, execution flows, and experiments behind AI agents.
+-   :material-robot-outline:{ .lg .middle } **Agentic AI**
 
-[Explore Agentic AI →](agentic-ai/index.md)
+    ---
 
-### 🦜 LangChain
+    Concepts, architectures, execution flows, and experiments behind AI agents.
 
-Learning LangChain from fundamentals through practical examples.
+    [:octicons-arrow-right-24: Explore Agentic AI](agentic-ai/index.md)
 
-[Explore LangChain →](frameworks/langchain/introduction.md)
+-   :material-link-variant:{ .lg .middle } **LangChain**
 
-### 🔗 LangGraph
+    ---
 
-Understanding graph-based application flows and stateful execution.
+    Learning LangChain from fundamentals through practical examples.
 
-[Explore LangGraph →](frameworks/langgraph/introduction.md)
+    [:octicons-arrow-right-24: Explore LangChain](frameworks/langchain/introduction.md)
+
+-   :material-graph-outline:{ .lg .middle } **LangGraph**
+
+    ---
+
+    Understanding graph-based application flows and stateful execution.
+
+    [:octicons-arrow-right-24: Explore LangGraph](frameworks/langgraph/introduction.md)
+
+</div>
 
 ---
 
-## 🧠 How I Learn
+## :material-brain: How I Learn
 
 ```mermaid
 flowchart LR
@@ -61,7 +71,7 @@ The goal is to:
 
 ---
 
-## 📝 Recent Learning
+## :material-notebook-edit-outline: Recent Learning
 
 ### Middleware
 
@@ -83,7 +93,7 @@ A first look at graph-based application flows.
 
 ---
 
-## 📌 Learning Notes
+## :material-pin: Learning Notes
 
 !!! note "My takeaway"
 
@@ -93,7 +103,7 @@ The important part of documenting a concept is capturing **what I understood**, 
 
 ---
 
-## 🧪 Experiments
+## :material-flask-outline: Experiments
 
 My learning repository will eventually contain runnable Python examples alongside the explanations.
 
@@ -115,7 +125,7 @@ My Understanding
 
 ---
 
-## 🎨 Visualizations
+## :material-palette-outline: Visualizations
 
 Architecture diagrams and execution flows help turn abstract AI concepts into something easier to reason about.
 
@@ -123,7 +133,7 @@ Architecture diagrams and execution flows help turn abstract AI concepts into so
 
 ---
 
-## ✍️ Handwritten Notes
+## :material-pencil-outline: Handwritten Notes
 
 My handwritten study notes will live alongside the digital documentation.
 
@@ -131,16 +141,16 @@ My handwritten study notes will live alongside the digital documentation.
 
 ---
 
-## 🔗 References & Discussions
+## :material-link-variant: References & Discussions
 
 Supporting resources and questions will remain connected to the relevant learning topics rather than cluttering the main navigation.
 
-- [References →](references/index.md)
-- [Discussions →](discussions/index.md)
+* [References →](references/index.md)
+* [Discussions →](discussions/index.md)
 
 ---
 
-## 💻 GitHub → Netlify
+## :material-source-branch: GitHub → Netlify
 
 The **GitHub repository is the single source of truth**.
 
