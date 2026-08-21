@@ -1,4 +1,7 @@
 # Dhyey's Learning Lab
+## 🚀 Deployment Test
+
+This page was updated through GitHub and automatically deployed by Netlify.
 
 > **Learning → Understanding → Building → Documenting**
 
