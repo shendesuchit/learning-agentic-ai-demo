@@ -8,14 +8,11 @@ A personal engineering learning laboratory where I document what I learn about *
 
 ## :material-radar: Currently Learning
 
-### Agentic AI → Frameworks → LangChain → Middleware
+!!! abstract "Agentic AI → Frameworks → LangChain → Middleware"
 
-I'm currently exploring how middleware fits into the execution flow of AI applications and how it can be used to control, inspect, or modify execution.
+    I'm currently exploring how middleware fits into the execution flow of AI applications and how it can be used to control, inspect, or modify execution.
 
-**Explore:**
-
-- [LangChain Introduction](frameworks/langchain/introduction.md)
-- [Middleware](frameworks/langchain/middleware/overview.md)
+    **Explore:** [LangChain Introduction](frameworks/langchain/introduction.md) · [Middleware](frameworks/langchain/middleware/overview.md)
 
 ---
 
@@ -81,23 +78,33 @@ The goal is to:
 
 ## :material-notebook-edit-outline: Recent Learning
 
-### Middleware
+<div class="grid cards" markdown>
 
-Understanding where middleware sits in an execution pipeline.
+-   :material-tune-vertical:{ .lg .middle } **Middleware**
 
-[Read Middleware →](frameworks/langchain/middleware/overview.md)
+    ---
 
-### Custom Middleware
+    Understanding where middleware sits in an execution pipeline.
 
-A small Python example demonstrating the basic idea.
+    [:octicons-arrow-right-24: Read Middleware](frameworks/langchain/middleware/overview.md)
 
-[Read Custom Middleware →](frameworks/langchain/middleware/custom.md)
+-   :material-code-braces:{ .lg .middle } **Custom Middleware**
 
-### LangGraph
+    ---
 
-A first look at graph-based application flows.
+    A small Python example demonstrating the basic idea.
 
-[Read LangGraph →](frameworks/langgraph/introduction.md)
+    [:octicons-arrow-right-24: Read Custom Middleware](frameworks/langchain/middleware/custom.md)
+
+-   :material-graph-outline:{ .lg .middle } **LangGraph**
+
+    ---
+
+    A first look at graph-based application flows.
+
+    [:octicons-arrow-right-24: Read LangGraph](frameworks/langgraph/introduction.md)
+
+</div>
 
 ---
 
