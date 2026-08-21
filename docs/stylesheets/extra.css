@@ -67,3 +67,22 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Sync Mermaid diagrams with the site palette instead of Mermaid's default theme */
+:root,
+[data-md-color-scheme="default"] {
+  --md-mermaid-font-family: var(--md-text-font-family), sans-serif;
+  --md-mermaid-edge-color: var(--md-default-fg-color--light);
+  --md-mermaid-node-bg-color: var(--md-accent-fg-color--transparent);
+  --md-mermaid-node-fg-color: var(--md-default-fg-color);
+  --md-mermaid-label-bg-color: var(--md-default-bg-color);
+  --md-mermaid-label-fg-color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-mermaid-edge-color: var(--md-default-fg-color--lighter);
+  --md-mermaid-node-bg-color: var(--md-accent-fg-color--transparent);
+  --md-mermaid-node-fg-color: var(--md-default-fg-color);
+  --md-mermaid-label-bg-color: var(--md-default-bg-color);
+  --md-mermaid-label-fg-color: var(--md-default-fg-color);
+}
