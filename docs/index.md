@@ -1,29 +1,76 @@
 # Dhyey's Learning Lab
-## 🚀 Deployment Test at 6.10
 
-This page was updated through GitHub and automatically deployed by Netlify.
+<div class="hero-intro">
 
-> **Learning → Understanding → Building → Documenting**
+## Learning → Understanding → Building → Documenting
 
-Welcome to the proof-of-concept version of my personal learning laboratory.
+A personal engineering learning laboratory where I document what I learn about **Agentic AI, LangChain, LangGraph, Transformers, Machine Learning, RAG, and AI Engineering**.
 
-This site is designed to document:
+</div>
 
-- Concepts I learn
-- My own explanations
-- Python examples
-- Architecture and Mermaid diagrams
-- Handwritten notes
-- Sticky-note takeaways
-- References
-- Learning questions and discussions
-- Mistakes and things I initially misunderstood
+---
 
-## Currently exploring
+## 🧭 Currently Learning
 
-**Agentic AI → Frameworks → LangChain → Middleware**
+<div class="learning-card">
 
-Use the navigation to explore the demo learning hierarchy.
+### Agentic AI → Frameworks → LangChain → Middleware
 
-!!! note "This is a demo"
-    This repository intentionally contains small dummy examples. It will be replaced/expanded only after the GitHub → MkDocs → Netlify workflow is verified.
+I'm currently exploring how middleware fits into the execution flow of AI applications and how it can be used to control, inspect, or modify execution.
+
+**Explore:**  
+[LangChain Introduction](frameworks/langchain/introduction.md) ·
+[Middleware](frameworks/langchain/middleware/overview.md)
+
+</div>
+
+---
+
+## 🗺️ Learning Paths
+
+<div class="card-grid">
+
+<div class="topic-card">
+
+### 🤖 Agentic AI
+
+Concepts, architectures, execution flows, and experiments behind AI agents.
+
+[Explore →](agentic-ai/index.md)
+
+</div>
+
+<div class="topic-card">
+
+### 🦜 LangChain
+
+Learning LangChain from fundamentals through practical examples.
+
+[Explore →](frameworks/langchain/introduction.md)
+
+</div>
+
+<div class="topic-card">
+
+### 🔗 LangGraph
+
+Understanding graph-based application flows and stateful execution.
+
+[Explore →](frameworks/langgraph/introduction.md)
+
+</div>
+
+</div>
+
+---
+
+## 🧠 How I Learn
+
+```mermaid
+flowchart LR
+    A[Learn] --> B[Understand]
+    B --> C[Experiment]
+    C --> D[Build]
+    D --> E[Document]
+    E --> F[Reflect]
+    F --> A
