@@ -43,6 +43,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - toc.follow
 
   font:
     text: Inter
