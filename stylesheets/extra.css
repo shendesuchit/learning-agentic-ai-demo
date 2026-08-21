@@ -1,14 +1,69 @@
-/* Small visual layer for the demo.
-   Keep custom styling minimal until the core workflow is proven. */
+/* =========================================================
+   Dhyey's Learning Lab
+   Homepage styling
+   ========================================================= */
 
-:root {
-  --md-text-font: "Inter", sans-serif;
-  --md-code-font: "JetBrains Mono", monospace;
+.hero-intro {
+  max-width: 850px;
+  margin: 1.5rem 0 3rem;
+  font-size: 1.08rem;
+  line-height: 1.8;
 }
 
-.learning-note {
+.hero-intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.topic-card,
+.learning-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 1.2rem;
+  background: var(--md-default-bg-color);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.topic-card:hover,
+.learning-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.topic-card h3 {
+  margin-top: 0;
+}
+
+.learning-card {
   border-left: 4px solid var(--md-primary-fg-color);
-  padding: 0.8rem 1rem;
-  margin: 1rem 0;
-  background: var(--md-code-bg-color);
+}
+
+.learning-card h3 {
+  margin-top: 0;
+}
+
+.md-typeset .admonition {
+  border-radius: 8px;
+}
+
+/* Keep mobile layouts comfortable */
+@media screen and (max-width: 600px) {
+  .hero-intro h2 {
+    font-size: 1.55rem;
+  }
+
+  .hero-intro {
+    font-size: 1rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
 }
