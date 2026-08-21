@@ -1,6 +1,5 @@
 site_name: "Dhyey's Learning Lab"
-site_description: "A personal engineering learning laboratory."
-site_url: "https://example.netlify.app"
+site_description: "A personal engineering learning laboratory for Agentic AI and software engineering."
 
 theme:
   name: material
@@ -12,6 +11,7 @@ theme:
     - navigation.top
     - content.code.copy
     - search.highlight
+    - search.share
 
   font:
     text: Inter
