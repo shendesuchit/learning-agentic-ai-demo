@@ -1,0 +1,55 @@
+site_name: "Dhyey's Learning Lab"
+site_description: "A personal engineering learning laboratory."
+site_url: "https://example.netlify.app"
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Agentic AI:
+      - Overview: agentic-ai/index.md
+  - Frameworks:
+      - LangChain:
+          - Introduction: frameworks/langchain/introduction.md
+          - Middleware:
+              - Overview: frameworks/langchain/middleware/overview.md
+              - Custom Middleware: frameworks/langchain/middleware/custom.md
+              - Predefined Middleware: frameworks/langchain/middleware/predefined.md
+      - LangGraph:
+          - Introduction: frameworks/langgraph/introduction.md
+  - Examples:
+      - Overview: examples/index.md
+  - Visualizations:
+      - Overview: visualizations/index.md
+  - Handwritten Notes:
+      - Overview: handwritten-notes/index.md
+  - References:
+      - Overview: references/index.md
+  - Discussions:
+      - Overview: discussions/index.md
