@@ -5,12 +5,14 @@ site_url: "https://example.netlify.app"
 theme:
   name: material
   language: en
+
   features:
     - navigation.sections
     - navigation.path
     - navigation.top
     - content.code.copy
     - search.highlight
+
   font:
     text: Inter
     code: JetBrains Mono
@@ -33,8 +35,10 @@ extra_css:
 
 nav:
   - Home: index.md
+
   - Agentic AI:
       - Overview: agentic-ai/index.md
+
   - Frameworks:
       - LangChain:
           - Introduction: frameworks/langchain/introduction.md
@@ -42,15 +46,21 @@ nav:
               - Overview: frameworks/langchain/middleware/overview.md
               - Custom Middleware: frameworks/langchain/middleware/custom.md
               - Predefined Middleware: frameworks/langchain/middleware/predefined.md
+
       - LangGraph:
           - Introduction: frameworks/langgraph/introduction.md
+
   - Examples:
       - Overview: examples/index.md
+
   - Visualizations:
       - Overview: visualizations/index.md
+
   - Handwritten Notes:
       - Overview: handwritten-notes/index.md
+
   - References:
       - Overview: references/index.md
+
   - Discussions:
       - Overview: discussions/index.md
