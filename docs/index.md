@@ -41,6 +41,7 @@ Understanding graph-based application flows and stateful execution.
 
 ---
 
+```text
 ## 🧠 How I Learn
 
 ```mermaid
