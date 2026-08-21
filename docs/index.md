@@ -47,6 +47,14 @@ I'm currently exploring how middleware fits into the execution flow of AI applic
 
     [:octicons-arrow-right-24: Explore LangGraph](frameworks/langgraph/introduction.md)
 
+-   :material-brain:{ .lg .middle } **Transformers & RAG**
+
+    ---
+
+    Attention mechanisms, embeddings, retrieval-augmented generation — coming as I work through them.
+
+    [:octicons-arrow-right-24: Coming soon](agentic-ai/index.md)
+
 </div>
 
 ---
