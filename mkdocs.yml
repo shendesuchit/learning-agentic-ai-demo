@@ -13,6 +13,8 @@ theme:
     repo: fontawesome/brands/github
     logo: material/flask-outline
 
+  favicon: assets/images/favicon.png
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
